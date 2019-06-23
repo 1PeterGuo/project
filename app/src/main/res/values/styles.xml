@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowStyle</item>
+
+        <!-- 沉浸状态栏 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--全应用都只允许竖屏-->
+        <item name="android:screenOrientation">portrait</item>
+
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        // 窗口背景
+        <item name="android:windowIsTranslucent">false</item>
+        // 窗口是否透明
+    </style>
+
+
+    <!-- 设置侧滑栏开关的三条杠的开关 -->
+    <style name="AppTheme.DrawerArrowStyle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/white</item>
+    </style>
+
+
+</resources>

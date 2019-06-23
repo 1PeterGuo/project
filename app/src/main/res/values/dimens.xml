@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="drawer_image_height">180dp</dimen>
+    <dimen name="tech_icon_size">32dp</dimen>
+</resources>
